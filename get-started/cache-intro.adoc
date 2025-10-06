@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/cache-intro.html 
 keywords: how volume caching works, what is volume caching, bluexp 
-summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
+summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
 ---
 = Obtenga más información sobre el almacenamiento en caché de volumen
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: El almacenamiento en caché de volumen proporciona un volumen persisten
 
 
 [role="lead"]
-El almacenamiento en caché de volumen, una característica del software ONTAP 9, es una capacidad de almacenamiento en caché remoto que simplifica la distribución de archivos, reduce la latencia de la WAN al acercar los recursos a donde se encuentran los usuarios y los recursos informáticos, y reduce los costos de ancho de banda de la WAN.  El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.
+El almacenamiento en caché de volumen, una característica del software ONTAP 9, es una capacidad de almacenamiento en caché remoto que simplifica la distribución de archivos, reduce la latencia de la WAN al acercar los recursos a donde se encuentran los usuarios y los recursos informáticos, y reduce los costos de ancho de banda de la WAN. El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.
 
 Con el almacenamiento en caché de volumen, tiene capacidades de almacenamiento en caché para la nube, específicamente para Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP y en las instalaciones como entornos de trabajo.
 
@@ -20,15 +20,15 @@ El almacenamiento en caché de volumen también proporciona a las sucursales acc
 
 
 
-== Consola de NetApp
+== NetApp Console
 
-Se puede acceder al almacenamiento en caché de volumen a través de la consola de NetApp .
+Se puede acceder al almacenamiento en caché de volumen a través de la NetApp Console.
 
-La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
+La NetApp Console proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
 
 No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
 
-Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Consola de NetApp"] .
+Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 

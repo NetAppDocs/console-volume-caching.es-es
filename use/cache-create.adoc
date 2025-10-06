@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-create.html 
 keywords: volume caching, Volume caching 
-summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
+summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
 ---
 = Crear un caché usando el almacenamiento en caché de volumen
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: El almacenamiento en caché de volumen proporciona un volumen persisten
 
 
 [role="lead"]
-El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes almacenados en caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.  Puede crear almacenamiento en caché de volumen entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP local con uno o más volúmenes de origen del sistema de origen como origen de caché.  Luego, elige la máquina virtual de almacenamiento para los volúmenes de caché.
+El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes almacenados en caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.  Puede crear almacenamiento en caché de volumen entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP local con uno o más volúmenes de origen del sistema de origen como origen de caché.  Luego, elige la máquina virtual de almacenamiento para los volúmenes de caché.
 
 El volumen almacenado en caché puede estar en el mismo clúster o en un clúster diferente al del volumen de origen.  Los volúmenes que seleccione para almacenar en caché deben pertenecer a la misma máquina virtual de almacenamiento y las máquinas virtuales de almacenamiento deben usar los mismos protocolos.
 
@@ -30,20 +30,20 @@ El nombre del volumen en caché utiliza un sufijo de `pass:macros[_cache]` añad
 
 == Pasos desde la página de inicio del almacenamiento en caché de volumen
 
-. Inicie sesión en la consola de NetApp .
+. Inicie sesión en la NetApp Console.
 . Seleccione *Movilidad* > *Almacenamiento en caché de volumen* en la navegación izquierda.
 +
 Llegará a la página del Panel de control de almacenamiento en caché de volumen.  Cuando comience a utilizar la opción de almacenamiento en caché de volumen, deberá agregar la información de caché.  Más tarde aparece el Panel de control y se muestran datos sobre los cachés.
 
 +
 
-NOTE: Si aún no ha configurado un agente de consola de NetApp , aparece la opción *Agregar un agente de consola* en lugar de *Agregar una caché*.  En este caso, primero debe configurar el agente de la consola.  Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de la consola de NetApp"^] .
+NOTE: Si aún no ha configurado un agente de NetApp Console , aparece la opción *Agregar un agente de consola* en lugar de *Agregar una caché*.  En este caso, primero debe configurar el agente de la consola. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de la NetApp Console"^] .
 
 +
 image:landing-page.png["la página de destino para el almacenamiento en caché de volumen"]
 
 . Seleccione *Agregar un caché*.
-. En la página Datos de caché, seleccione el caché de origen y de destino del sistema y seleccione *Iniciar asistente de almacenamiento en caché*.
+. En la página Datos de caché, seleccione la caché de origen y de destino del sistema y seleccione *Iniciar asistente de almacenamiento en caché*.
 . En la página Configurar sus cachés, seleccione el volumen o los volúmenes que desea almacenar en caché.
 +
 
@@ -67,14 +67,14 @@ El sufijo de `pass:macros[_cache]` se añade al nombre en el formato: `<user-spe
 +
 El nuevo caché aparece en la lista de Almacenamiento en caché.  Se mostrará el nombre del volumen de caché `pass:macros[_cache]` como sufijo del nombre del volumen de origen.
 
-. Para ver el progreso de la operación, desde el menú de la consola de NetApp , seleccione *Administración* > *Auditoría*.
+. Para ver el progreso de la operación, desde el menú de la NetApp Console , seleccione *Administración* > *Auditoría*.
 
 
 
 
-== Pasos desde la página de sistemas de consola de NetApp
+== Pasos desde la página de sistemas de NetApp Console
 
-. Desde la página Sistemas de consola de NetApp , seleccione el entorno de trabajo.
+. Desde la página Sistemas de NetApp Console , seleccione el entorno de trabajo.
 . Seleccione el sistema de origen y arrástrelo al destino.image:drag-n-drop.png["Funcionalidad de arrastrar y soltar para crear caché"]
 . Seleccione *Almacenamiento en caché de volumen*.
 +
@@ -108,5 +108,5 @@ El sufijo de `pass:macros[_cache]` se añade al nombre en el formato: `<user-spe
 +
 El nuevo caché aparece en la lista de Almacenamiento en caché.  Se mostrará el nombre del volumen de caché `pass:macros[_cache]` como sufijo del nombre del volumen de origen.
 
-. Para ver el progreso de la operación, desde el menú de la consola de NetApp , seleccione *Administración* > *Auditoría*.
+. Para ver el progreso de la operación, desde el menú de la NetApp Console , seleccione *Administración* > *Auditoría*.
 

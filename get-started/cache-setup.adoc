@@ -21,11 +21,11 @@ Para utilizar el almacenamiento en caché de volumen, realice algunos pasos para
 
 
 
-== Crear un agente de consola en la consola de NetApp
+== Crear un agente de consola en la NetApp Console
 
-El siguiente paso es crear un agente de consola en la consola de NetApp .
+El siguiente paso es crear un agente de consola en la NetApp Console.
 
-Para crear un agente de consola antes de usar el almacenamiento en caché de volumen, consulte la documentación de la consola de NetApp que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Cómo crear un agente de consola"^] .
+Para crear un agente de consola antes de usar el almacenamiento en caché de volumen, consulte la documentación de la NetApp Console que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Cómo crear un agente de consola"^] .
 
 
 

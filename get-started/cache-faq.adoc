@@ -18,4 +18,4 @@ Estas preguntas frecuentes pueden ayudarte si simplemente buscas una respuesta r
 
 ¿Necesita una licencia para utilizar el almacenamiento en caché de volumen? No se requiere un archivo de licencia de NetApp (NLF).
 
-¿Cómo habilitar el almacenamiento en caché de volumen?  El almacenamiento en caché de volumen no requiere ninguna habilitación.  La opción de almacenamiento en caché de volumen aparece automáticamente en la navegación izquierda de la consola de NetApp .
+¿Cómo habilitar el almacenamiento en caché de volumen?  El almacenamiento en caché de volumen no requiere ninguna habilitación.  La opción de almacenamiento en caché de volumen aparece automáticamente en la navegación izquierda de la NetApp Console .

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
 keywords: bluexp login, volume caching log in 
-summary: Comience a utilizar el almacenamiento en caché de volumen accediendo al servicio en la consola de NetApp . 
+summary: Comience a utilizar el almacenamiento en caché de volumen accediendo al servicio en la NetApp Console. 
 ---
 = Acceder al almacenamiento en caché del volumen
 :hardbreaks:
@@ -12,14 +12,14 @@ summary: Comience a utilizar el almacenamiento en caché de volumen accediendo a
 
 
 [role="lead"]
-Utilice la consola de NetApp para acceder a la opción de almacenamiento en caché de volumen.
+Utilice la NetApp Console para acceder a la opción de almacenamiento en caché de volumen.
 
-Para iniciar sesión en la consola de NetApp , puede utilizar sus credenciales del sitio de soporte de NetApp . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^] .
+Para iniciar sesión en la NetApp Console, puede utilizar sus credenciales del sitio de soporte de NetApp . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^] .
 
 .Pasos
 . Abra un navegador web y vaya a https://console.netapp.com/["Consola de NetApp"^] .
 +
-Aparece la página de inicio de sesión de la consola de NetApp .
+Aparece la página de inicio de sesión de la NetApp Console .
 
 . Inicie sesión en la consola.
 . Desde la navegación izquierda de la Consola, seleccione *Movilidad* > *Almacenamiento en caché de volumen*.

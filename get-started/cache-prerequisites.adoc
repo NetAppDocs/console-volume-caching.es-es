@@ -22,12 +22,12 @@ Para utilizar el almacenamiento en caché de volumen, debe asegurarse de que su 
 ** LIF entre clústeres en los clústeres
 
 
-* En la consola de NetApp :
+* En la NetApp Console:
 +
-** El agente de consola debe configurarse en la consola de NetApp .  Todos los clústeres de origen y destino deben estar en el mismo agente de consola. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de BlueXP"^] y https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Obtenga más información sobre los agentes de consola"^] .
-** Se debe preparar el ambiente de trabajo.
+** El agente de consola debe configurarse en la NetApp Console.  Todos los clústeres de origen y destino deben estar en el mismo agente de consola. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de BlueXP"^] y https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Obtenga más información sobre los agentes de consola"^] .
+** Se debe establecer el ambiente de trabajo.
 ** Los clústeres deben agregarse en el entorno de trabajo de destino y en un estado encendido o degradado.
-** Requisitos estándar de la consola NetApp . Referirse a https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos de la consola de NetApp"^] .
+** Requisitos estándar de la NetApp Console . Referirse a https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos de la NetApp Console"^] .
 
 
 
