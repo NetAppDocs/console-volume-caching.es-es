@@ -1,0 +1,85 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-intro.html 
+keywords: how volume caching works, what is volume caching, bluexp 
+summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
+---
+= Obtenga más información sobre el almacenamiento en caché de volumen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El almacenamiento en caché de volumen, una característica del software ONTAP 9, es una capacidad de almacenamiento en caché remoto que simplifica la distribución de archivos, reduce la latencia de la WAN al acercar los recursos a donde se encuentran los usuarios y los recursos informáticos, y reduce los costos de ancho de banda de la WAN.  El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.
+
+Con el almacenamiento en caché de volumen, tiene capacidades de almacenamiento en caché para la nube, específicamente para Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP y en las instalaciones como entornos de trabajo.
+
+El almacenamiento en caché de volumen también proporciona a las sucursales acceso a los conjuntos de datos corporativos.  Al proporcionar _datos activos_, datos a los que se debe acceder con frecuencia desde múltiples controladores en un clúster, puede aumentar el rendimiento entregado a las aplicaciones clave.  Además, al almacenar en caché datos importantes locales para usuarios en múltiples ubicaciones alrededor del mundo, puede mejorar su colaboración al permitir el acceso simultáneo a conjuntos de datos centralizados y, al mismo tiempo, reducir el tiempo de respuesta que reciben cuando acceden a los datos importantes.
+
+
+
+== Consola de NetApp
+
+Se puede acceder al almacenamiento en caché de volumen a través de la consola de NetApp .
+
+La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
+
+No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
+
+Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Consola de NetApp"] .
+
+
+
+== ¿Qué es un caché?
+
+Un caché es una ubicación de almacenamiento temporal que reside entre un host y la fuente de datos.  El objetivo de un caché es almacenar partes de datos de origen a las que se accede con frecuencia de manera que se puedan servir los datos más rápido de lo que sería si se obtuvieran de la fuente.  Los cachés son más beneficiosos en entornos de lectura intensiva donde se accede a los datos más de una vez y son compartidos por múltiples hosts.  Un sistema de caché es más rápido que el sistema con fuente de datos, lo que se logra mediante un sistema de almacenamiento más rápido y la proximidad del espacio de almacenamiento de caché al host.
+
+
+
+== Beneficios del almacenamiento en caché de volumen
+
+El almacenamiento en caché de volumen ofrece los siguientes beneficios:
+
+* Acelere el rendimiento en una infraestructura de nube híbrida
+* Elimine los silos en la nube almacenando en caché datos de un proveedor de nube a otro
+* Costos de almacenamiento más bajos
+* Colaborar en diferentes ubicaciones geográficas
+* Capacidad de adaptarse más rápidamente a entornos de TI cambiantes
+* Almacenamiento en caché de volumen a pedido o basado en suscripción alojado en la nube
+
+
+
+
+== Qué puedes hacer con el almacenamiento en caché de volumen
+
+El almacenamiento en caché de volumen le proporciona el uso completo de varias tecnologías de NetApp para lograr los siguientes objetivos:
+
+* Almacenar datos en caché de un proveedor de nube a otro
+* Ver y editar una política de exportación de caché
+* Cambiar el tamaño de una caché existente
+* Eliminar un caché
+
+
+
+
+== Costo
+
+NetApp no ​​le cobra por el almacenamiento en caché de volumen, pero deberá consultar con su proveedor de nube para conocer los cargos de ingreso y egreso de datos aplicables.
+
+
+
+== Licencias
+
+No se necesitan licencias ONTAP especiales para el almacenamiento en caché de volumen.
+
+
+
+== Cómo funciona el almacenamiento en caché de volumen
+
+Un volumen de caché es un volumen escasamente poblado que está respaldado por un volumen de origen.  El volumen de caché puede estar en el mismo clúster que el volumen de origen o en un clúster diferente al mismo.
+
+El volumen de caché proporciona acceso a los datos en el volumen de origen sin necesidad de que todos los datos estén en el volumen de caché.  El almacenamiento de datos en el volumen de almacenamiento en caché se administra de manera eficiente al conservar solo los datos de mayor actividad (datos de trabajo o datos utilizados recientemente).
+
+El almacenamiento en caché de volumen lee las solicitudes si el volumen de caché contiene los datos solicitados por el cliente.  De lo contrario, el servicio de almacenamiento en caché de volumen solicita los datos del volumen de origen y los almacena antes de atender la solicitud del cliente.  Las solicitudes posteriores de datos se atienden directamente desde el volumen de caché.  Esto mejora el rendimiento cuando se accede repetidamente a los mismos datos, porque después de la primera solicitud, los datos ya no necesitan viajar a través de la red ni ser servidos desde un sistema sobrecargado.

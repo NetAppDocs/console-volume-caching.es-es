@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-create.html 
+keywords: volume caching, Volume caching 
+summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
+---
+= Crear un caché usando el almacenamiento en caché de volumen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes almacenados en caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.  Puede crear almacenamiento en caché de volumen entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP local con uno o más volúmenes de origen del sistema de origen como origen de caché.  Luego, elige la máquina virtual de almacenamiento para los volúmenes de caché.
+
+El volumen almacenado en caché puede estar en el mismo clúster o en un clúster diferente al del volumen de origen.  Los volúmenes que seleccione para almacenar en caché deben pertenecer a la misma máquina virtual de almacenamiento y las máquinas virtuales de almacenamiento deben usar los mismos protocolos.
+
+
+TIP: Si los volúmenes no son elegibles para el almacenamiento en caché, aparecerán en gris para que no pueda seleccionarlos.
+
+Puede ingresar el tamaño de los volúmenes almacenados en caché como un porcentaje del tamaño del volumen de origen.
+
+
+NOTE: El espacio IPSpace utilizado por el volumen almacenado en caché depende del espacio IPSpace utilizado por la máquina virtual de almacenamiento de origen.
+
+El nombre del volumen en caché utiliza un sufijo de `pass:macros[_cache]` añadido al nombre del volumen original.
+
+
+
+== Pasos desde la página de inicio del almacenamiento en caché de volumen
+
+. Inicie sesión en la consola de NetApp .
+. Seleccione *Movilidad* > *Almacenamiento en caché de volumen* en la navegación izquierda.
++
+Llegará a la página del Panel de control de almacenamiento en caché de volumen.  Cuando comience a utilizar la opción de almacenamiento en caché de volumen, deberá agregar la información de caché.  Más tarde aparece el Panel de control y se muestran datos sobre los cachés.
+
++
+
+NOTE: Si aún no ha configurado un agente de consola de NetApp , aparece la opción *Agregar un agente de consola* en lugar de *Agregar una caché*.  En este caso, primero debe configurar el agente de la consola.  Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de la consola de NetApp"^] .
+
++
+image:landing-page.png["la página de destino para el almacenamiento en caché de volumen"]
+
+. Seleccione *Agregar un caché*.
+. En la página Datos de caché, seleccione el caché de origen y de destino del sistema y seleccione *Iniciar asistente de almacenamiento en caché*.
+. En la página Configurar sus cachés, seleccione el volumen o los volúmenes que desea almacenar en caché.
++
+
+NOTE: Puede seleccionar hasta 50 volúmenes.
+
+. Desplácese hacia abajo en la página para realizar cambios adicionales en los detalles de la máquina virtual o el tamaño del volumen.
+. Introduzca el tamaño de los volúmenes de caché como un porcentaje del tamaño del volumen de origen.
++
+
+TIP: Una buena regla general es que el tamaño del volumen de caché debe ser aproximadamente el 15 % del tamaño del volumen de origen.
+
+. Marque la casilla *Acceso a caché* para replicar las reglas de política de exportación de NFS y la configuración de recursos compartidos SMB/CIFS desde el volumen de origen al volumen de caché de destino.
++
+Luego, las reglas de política de exportación de NFS y el recurso compartido SMB/CIFS en el volumen de origen se replicarán al volumen de caché.  Si el protocolo SMB/CIFS no está habilitado en la máquina virtual de almacenamiento en caché, el recurso compartido SMB/CIFS no se replicará.
+
+. Opcionalmente, ingrese el prefijo del nombre de caché.
++
+El sufijo de `pass:macros[_cache]` se añade al nombre en el formato: `<user-specified prefix>_<source volume name>_cache`
+
+. Seleccione *Crear cachés*.
++
+El nuevo caché aparece en la lista de Almacenamiento en caché.  Se mostrará el nombre del volumen de caché `pass:macros[_cache]` como sufijo del nombre del volumen de origen.
+
+. Para ver el progreso de la operación, desde el menú de la consola de NetApp , seleccione *Administración* > *Auditoría*.
+
+
+
+
+== Pasos desde la página de sistemas de consola de NetApp
+
+. Desde la página Sistemas de consola de NetApp , seleccione el entorno de trabajo.
+. Seleccione el sistema de origen y arrástrelo al destino.image:drag-n-drop.png["Funcionalidad de arrastrar y soltar para crear caché"]
+. Seleccione *Almacenamiento en caché de volumen*.
++
+Esto crea un volumen de caché desde el origen hasta el destino.
+
+. En el panel derecho, en el cuadro de opciones Almacenamiento en caché, seleccione *Agregar*.
+. En la página Datos de caché, seleccione el sistema que desea almacenar en caché y seleccione *Iniciar asistente de caché*.image:cache-data.png["ventana emergente de datos de caché"]
+. En la página Configurar sus cachés, seleccione el volumen o los volúmenes que desea almacenar en caché.
++
+
+NOTE: Puede seleccionar hasta 50 volúmenes.
+
+. Desplácese hacia abajo en la página para realizar cambios adicionales en los detalles de la máquina virtual o el tamaño del volumen.
+. Introduzca el tamaño de los volúmenes de caché como un porcentaje del tamaño del volumen de origen.
++
+
+TIP: Una buena regla general es que el tamaño del volumen de caché debe ser aproximadamente el 15 % del tamaño del volumen de origen.
+
++
+image:create-cache.png["ventana para agregar caché"]
+
+. Marque la casilla *Acceso a caché* para replicar las reglas de política de exportación de NFS y la configuración de recursos compartidos SMB/CIFS desde el volumen de origen al volumen de caché de destino.
++
+Luego, las reglas de política de exportación de NFS y el recurso compartido SMB/CIFS en el volumen de origen se replicarán al volumen de caché.  Si el protocolo SMB/CIFS no está habilitado en la máquina virtual de almacenamiento en caché, el recurso compartido SMB/CIFS no se replicará.
+
+. Opcionalmente, ingrese el prefijo del nombre de caché.
++
+El sufijo de `pass:macros[_cache]` se añade al nombre en el formato: `<user-specified prefix>_<source volume name>_cache`
+
+. Seleccione *Crear cachés*.
++
+El nuevo caché aparece en la lista de Almacenamiento en caché.  Se mostrará el nombre del volumen de caché `pass:macros[_cache]` como sufijo del nombre del volumen de origen.
+
+. Para ver el progreso de la operación, desde el menú de la consola de NetApp , seleccione *Administración* > *Auditoría*.
+

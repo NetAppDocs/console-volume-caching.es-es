@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: release-notes/cache-limitations.html 
+keywords: volume caching, bluexp 
+summary: Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del servicio o que no interactúan correctamente con él. 
+---
+= Limitaciones conocidas del almacenamiento en caché de volumen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del servicio o que no interactúan correctamente con él.
+
+
+
+== Limitación en la copia de reglas de política de exportación de caché
+
+Las reglas de la política de exportación de caché no se copian al volumen de caché en las siguientes situaciones:
+
+* Cuando el sistema del volumen de origen es Amazon FSx for NetApp ONTAP o Cloud Volumes ONTAP, y el volumen de caché es ONTAP 9.10.1 o anterior.
+* Cuando el sistema del volumen de origen es cualquier versión de ONTAP y el volumen de caché es ONTAP 9.10.1 o anterior.
+
+
+Solución alternativa: debe crear manualmente las reglas para el volumen de caché.
+
+
+
+== La creación de caché falla para las máquinas virtuales de almacenamiento con el mismo nombre
+
+Si los clústeres de origen y destino utilizan máquinas virtuales de almacenamiento con el mismo nombre, no se crea el caché.
+
+Solución alternativa: utilice nombres diferentes para las máquinas virtuales de almacenamiento de origen y destino.
+
+
+
+== Retraso en la visualización de políticas de exportación nuevas o editadas recientemente
+
+Al crear un caché, es posible que no pueda ver una política de exportación creada o editada recientemente en la lista.
+
+Solución alternativa: vuelva a intentarlo en unos minutos.
+
+
+
+== La creación de caché falla cuando el destino solo tiene habilitado el protocolo CIFS
+
+La creación de caché falla si el clúster de origen o destino tiene ONTAP 9.10.1 o anterior, y el clúster de destino solo tiene habilitado el protocolo CIFS.
+
+Solución alternativa: utilice un clúster de destino que ejecute ONTAP 9.11.1 o posterior, o con los protocolos CIFS y NFS configurados.

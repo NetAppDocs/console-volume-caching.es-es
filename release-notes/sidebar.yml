@@ -1,0 +1,8 @@
+---
+section: release-notes
+title: Notas de la versión
+entries:
+- title: Qué hay de nuevo
+  url: "/release-notes/cache-whats-new.html"
+- title: Limitaciones conocidas
+  url: "/release-notes/cache-limitations.html"

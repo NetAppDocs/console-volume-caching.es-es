@@ -1,0 +1,12 @@
+---
+section: use
+title: Usar almacenamiento en caché de volumen
+entries:
+- title: Descripción general del uso del almacenamiento en caché de volumen
+  url: "/use/cache-use-overview.html"
+- title: Crear un caché
+  url: "/use/cache-create.html"
+- title: Administrar un caché
+  url: "/use/cache-manage.html"
+- title: Supervisar trabajos de almacenamiento en caché de volumen
+  url: "/use/monitor-jobs.html"

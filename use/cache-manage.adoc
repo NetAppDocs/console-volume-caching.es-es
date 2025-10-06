@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-manage.html 
+keywords: volume caching, Volume caching 
+summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
+---
+= Administrar un caché
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede editar un caché, cambiar la política de exportación, cambiar el tamaño de un caché y eliminar un caché.
+
+Con el almacenamiento en caché de volumen, puede lograr estos objetivos:
+
+* Ver detalles de la caché.
+* Asignar una política de exportación diferente a un caché.
+* Editar un volumen de almacenamiento en caché y cambiar su tamaño, etc. Editar tendrá la opción de ver y cambiar otras propiedades, y se agregarán más propiedades en editar en las próximas versiones.
+* Cambiar el tamaño de una caché existente según un porcentaje del tamaño del volumen original.
+* Eliminar un caché.
+
+
+
+
+== Ver detalles de la caché
+
+Para cada almacenamiento en caché, puede ver el volumen original, el entorno de trabajo, el volumen de caché y más.
+
+.Pasos
+. Desde la navegación izquierda de la consola NetApp , seleccione *Movilidad* > *Almacenamiento en caché de volumen*.
++
+Puede ver la lista de volúmenes de caché creados en el sistema de destino.  La lista de cachés muestra los detalles del caché.
+
+. Para filtrar la lista, seleccione la opción *Filtrar por +*.
+. Seleccione una fila y seleccione la opción *Acciones…* a la derecha.
+. Seleccione *Ver y editar detalles*.
+. Revise los detalles.
+
+
+
+
+== Editar un caché
+
+Puede cambiar el nombre, el tamaño del volumen y la política de exportación de un caché.
+
+.Pasos
+. Desde la navegación izquierda de la consola NetApp , seleccione *Movilidad* > *Almacenamiento en caché de volumen*.
+. Seleccione una fila y seleccione la opción *Acciones…* a la derecha.
+. Seleccione *Ver y editar detalles*.
+. En la pestaña Configuración básica, opcionalmente, cambie el nombre de la caché y el tamaño del volumen de la caché.
+. Opcionalmente, expanda la pestaña Acceso a caché y modifique estos valores:
++
+.. El camino de la montaña.
+.. Una política de exportación diferente a la existente.
+
+
+. Para cambiar los detalles del recurso compartido SMB/CIFS o las reglas de la política de exportación, haga clic en la opción para acceder a NetApp System Manager.
+. Seleccione *Guardar*.
+
+
+
+
+== Asignar una política de exportación de caché diferente
+
+Puede asignar una política de exportación diferente a un caché.
+
+Las reglas de la política de exportación de origen se deben aplicar al clúster de destino.
+
+
+TIP: Puede asignar una política de exportación existente a un caché.  No se pueden cambiar las reglas de la política de exportación.  Si necesita cambiar las políticas de exportación, puede utilizar NetApp System Manager.
+
+.Pasos
+. Desde la navegación izquierda de la consola NetApp , seleccione *Movilidad* > *Almacenamiento en caché de volumen*.
+. Seleccione una fila y seleccione la opción *Acciones…* a la derecha.
+. Seleccione *Cambiar política de exportación*.
+. Seleccione la política de exportación que desea asignar a la caché.
+. Seleccione *Guardar*.
+
+
+
+
+== Cambiar el tamaño de una caché
+
+Puede cambiar el tamaño del volumen de caché en función de un porcentaje del volumen de origen.
+
+.Pasos
+. Desde la navegación izquierda de la consola NetApp , seleccione *Movilidad* > *Almacenamiento en caché de volumen*.
+. Seleccione una fila y seleccione la opción *Acciones…* a la derecha.
+. Seleccione *Cambiar tamaño*.
+. Introduzca un nuevo porcentaje del tamaño del volumen de origen.
++
+El volumen de caché se redimensionará al nuevo porcentaje.
+
+. Seleccione *Guardar*.
+
+
+
+
+== Eliminar un caché
+
+Si ya no necesitas el caché, puedes eliminarlo.  Esto elimina la relación de almacenamiento en caché de volumen y elimina el caché de volumen de destino.
+
+.Pasos
+. Desde la navegación izquierda de la consola NetApp , seleccione *Movilidad* > *Almacenamiento en caché de volumen*.
+. Seleccione una fila y seleccione la opción *Acciones…* a la derecha.
+. Seleccione *Eliminar*.
+. Marcar la casilla.
+. Seleccione *Eliminar*.
+

@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-faq.html 
+keywords: volume caching faq, caching frequently asked questions 
+summary: Estas preguntas frecuentes pueden ayudarte si simplemente buscas una respuesta rápida a una pregunta. 
+---
+= Preguntas frecuentes sobre el almacenamiento en caché de volumen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estas preguntas frecuentes pueden ayudarte si simplemente buscas una respuesta rápida a una pregunta.
+
+*¿Cuál es la URL de almacenamiento en caché de volumen?*  Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la consola BlueXP .
+
+¿Necesita una licencia para utilizar el almacenamiento en caché de volumen? No se requiere un archivo de licencia de NetApp (NLF).
+
+¿Cómo habilitar el almacenamiento en caché de volumen?  El almacenamiento en caché de volumen no requiere ninguna habilitación.  La opción de almacenamiento en caché de volumen aparece automáticamente en la navegación izquierda de la consola de NetApp .

@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Empezar
+entries:
+- title: Obtenga más información sobre el almacenamiento en caché de volumen
+  url: "/get-started/cache-intro.html"
+- title: Prerrequisitos
+  url: "/get-started/cache-prerequisites.html"
+- title: Inicio rápido
+  url: "/get-started/cache-quick-start.html"
+- title: Configurar el almacenamiento en caché de volumen
+  url: "/get-started/cache-setup.html"
+- title: Acceder a la opción de almacenamiento en caché de volumen
+  url: "/get-started/cache-login.html"
+- title: Preguntas frecuentes
+  url: "/get-started/cache-faq.html"

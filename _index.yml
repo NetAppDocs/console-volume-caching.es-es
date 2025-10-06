@@ -1,0 +1,41 @@
+---
+indexpage:
+  lead: El almacenamiento en caché de volumen proporciona un volumen persistente y
+    escribible en un lugar remoto.  Puede utilizar el almacenamiento en caché de volumen
+    para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con
+    mucho acceso.  Los volúmenes de caché son ideales para cargas de trabajo de lectura
+    intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos
+    repetidamente.
+  tiles:
+  - title: Empezar
+    links:
+    - title: Obtenga más información sobre el almacenamiento en caché de volumen
+      url: "/get-started/cache-intro.html"
+    - title: Novedades en el almacenamiento en caché de volumen
+      url: "/release-notes/cache-whats-new.html"
+    - title: Inicio rápido
+      url: "/get-started/cache-quick-start.html"
+    - title: Prerrequisitos
+      url: "/get-started/cache-prerequisites.html"
+    - title: Acceder a la opción de almacenamiento en caché de volumen
+      url: "/get-started/cache-login.html"
+    - title: Preguntas frecuentes
+      url: "/get-started/cache-faq.html"
+  - title: Usar almacenamiento en caché de volumen
+    links:
+    - title: Descripción general del uso del almacenamiento en caché de volumen
+      url: "/use/cache-use-overview.html"
+    - title: Crear un caché
+      url: "/use/cache-create.html"
+    - title: Administrar un caché
+      url: "/use/cache-manage.html"
+    - title: Supervisar trabajos de almacenamiento en caché de volumen
+      url: "/use/monitor-jobs.html"
+  - title: Blogs y comunidad
+    links:
+    - title: Consola de NetApp
+      url: https://www.netapp.com/console
+    - title: Servicios de datos de NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/

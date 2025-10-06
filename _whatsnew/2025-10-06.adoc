@@ -1,0 +1,19 @@
+= El BlueXP volume caching ahora es almacenamiento en caché de volumen
+:allow-uri-read: 
+
+
+
+
+=== El BlueXP volume caching ahora es almacenamiento en caché de volumen
+
+El BlueXP volume caching ha cambiado de nombre a almacenamiento en caché de volumen.
+
+Puede acceder a él desde la barra de navegación izquierda de la consola NetApp seleccionando *Movilidad* > *Almacenamiento en caché de volumen*.
+
+
+
+=== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
