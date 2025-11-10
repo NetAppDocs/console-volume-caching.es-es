@@ -17,6 +17,5 @@ Al utilizar el almacenamiento en caché de volumen, puede lograr los siguientes 
 * link:../use/cache-create.html["Crear un caché"] .
 * link:../use/cache-manage.html#view-cache-details["Ver detalles de la caché"] .
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["Cambiar la política de exportación y redimensionar un caché"] .
-* link:../use/cache-manage.html#delete-a-volume-cache["Eliminar un caché"] .
 * link:../use/monitor-jobs.html["Supervisar las operaciones de almacenamiento en caché de volumen"]en la página Auditoría de la NetApp Console .
 

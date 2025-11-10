@@ -1,5 +1,6 @@
 ---
 indexpage:
+  title: Almacenamiento en caché de volúmenes de NetApp
   lead: El almacenamiento en caché de volumen proporciona un volumen persistente y
     escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen
     para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con
