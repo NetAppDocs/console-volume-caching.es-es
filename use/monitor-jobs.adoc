@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/monitor-jobs.html 
-keywords: volume caching, NetApp Volume caching 
+keywords: Volume Caching, NetApp Volume caching 
 summary: El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen de NetApp para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. 
 ---
 = Supervisar trabajos de almacenamiento en caché de volumen en la página Auditoría

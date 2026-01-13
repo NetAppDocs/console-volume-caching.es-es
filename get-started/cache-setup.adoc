@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-setup.html 
-keywords: bluexp, volume caching, 
-summary: Para utilizar el almacenamiento en caché de volumen, realice algunos pasos para configurarlo. 
+keywords: bluexp, Volume Caching, 
+summary: Para utilizar el almacenamiento en caché de volumen, realice unos pocos pasos para configurarlo. 
 ---
 = Configurar el almacenamiento en caché de volumen
 :hardbreaks:
@@ -12,11 +12,11 @@ summary: Para utilizar el almacenamiento en caché de volumen, realice algunos p
 
 
 [role="lead"]
-Para utilizar el almacenamiento en caché de volumen, realice algunos pasos para configurarlo.
+Para utilizar el almacenamiento en caché de volumen, realice unos pocos pasos para configurarlo.
 
 * Revisarlink:../get-started/cache-prerequisites.html["prerrequisitos"] para garantizar que su entorno esté preparado.
 * Crear un agente de consola.
-* Cree sistemas que puedan admitir el almacenamiento en caché de volumen.
+* Cree sistemas que puedan soportar el almacenamiento en caché de volumen.
 
 
 
@@ -25,7 +25,7 @@ Para utilizar el almacenamiento en caché de volumen, realice algunos pasos para
 
 El siguiente paso es crear un agente de consola en la NetApp Console.
 
-Para crear un agente de consola antes de usar el almacenamiento en caché de volumen, consulte la documentación de la NetApp Console que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Cómo crear un agente de consola"^] .
+Para crear un agente de consola antes de usar el almacenamiento en caché de volumen, consulte la documentación de la NetApp Console que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Cómo crear un agente de consola"^].
 
 
 

@@ -1,12 +1,12 @@
-= El BlueXP volume caching ahora es almacenamiento en caché de volumen
+= El almacenamiento en caché de volumen de BlueXP ahora es almacenamiento en caché de volumen
 :allow-uri-read: 
 
 
 
 
-=== El BlueXP volume caching ahora es almacenamiento en caché de volumen
+=== El almacenamiento en caché de volumen de BlueXP ahora es almacenamiento en caché de volumen
 
-El BlueXP volume caching ha cambiado de nombre a almacenamiento en caché de volumen.
+El almacenamiento en caché de volumen de BlueXP ha cambiado de nombre a Almacenamiento en caché de volumen.
 
 Puede acceder a él desde la barra de navegación izquierda de la NetApp Console seleccionando *Movilidad* > *Almacenamiento en caché de volumen*.
 

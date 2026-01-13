@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-quick-start.html 
-keywords: how to get started with volume caching, volume caching quick start 
+keywords: how to get started with Volume Caching, Volume Caching quick start 
 summary: Comience a utilizar el almacenamiento en caché de volumen en unos pocos pasos. 
 ---
 = Inicio rápido para el almacenamiento en caché de volumen
@@ -18,7 +18,7 @@ A continuación se muestra una descripción general de los pasos necesarios para
 [role="quick-margin-para"]
 link:../get-started/cache-prerequisites.html["Asegúrese de que su entorno cumpla estos requisitos"] .
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"]Configurar el almacenamiento en caché de volumen
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Configurar el almacenamiento en caché de volumen
 [role="quick-margin-para"]
 link:../get-started/cache-setup.html["Configurar el almacenamiento en caché de vlume"] .
 
@@ -29,5 +29,5 @@ Esto es lo que podrías hacer a continuación.
 [role="quick-margin-list"]
 * link:../use/cache-create.html["Crear un caché"] .
 * link:../use/cache-use-overview.html["Administrar un caché, editar un caché, cambiar el tamaño de un caché o eliminar un caché"] .
-* link:../use/monitor-jobs.html["Supervisar las operaciones de almacenamiento en caché de volumen"] .
+* link:../use/monitor-jobs.html["Supervisar las operaciones de almacenamiento en caché de volumen"].
 

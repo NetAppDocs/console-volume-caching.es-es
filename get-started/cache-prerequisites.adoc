@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-prerequisites.html 
-keywords: what are volume caching requirements, volume caching prerequisites 
+keywords: what are Volume Caching requirements, Volume Caching prerequisites 
 summary: Comience a utilizar el almacenamiento en caché de volumen verificando la compatibilidad con su entorno, acceso a la red, inicio de sesión y navegador web. 
 ---
 = Requisitos previos del almacenamiento en caché de volumen

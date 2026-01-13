@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
-keywords: bluexp login, volume caching log in 
+keywords: bluexp login, Volume Caching log in 
 summary: Comience a utilizar el almacenamiento en caché de volumen accediendo al servicio en la NetApp Console. 
 ---
-= Acceder al almacenamiento en caché del volumen
+= Acceso al almacenamiento en caché de volumen
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -24,10 +24,10 @@ Aparece la página de inicio de sesión de la NetApp Console .
 . Inicie sesión en la consola.
 . Desde la navegación izquierda de la Consola, seleccione *Movilidad* > *Almacenamiento en caché de volumen*.
 +
-Aparece el panel de control de almacenamiento en caché de volumen.image:landing-page.png["Imagen de la página de destino para el almacenamiento en caché de volumen."]
+Aparece el panel de control de almacenamiento en caché de volumen. image:landing-page.png["Imagen de la página de destino para el almacenamiento en caché de volumen."]
 
 +
 
-NOTE: Si no se configura un agente de consola, aparece la opción *Agregar un agente de consola*. Consulte link:../get-started/cache-setup.html["Configurar el almacenamiento en caché de volumen"] .
+NOTE: Si no se configura un agente de consola, aparece la opción *Agregar un agente de consola*. Referirse alink:../get-started/cache-setup.html["Configurar el almacenamiento en caché de volumen"] .
 
 
