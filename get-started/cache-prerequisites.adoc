@@ -24,7 +24,7 @@ Para utilizar el almacenamiento en caché de volumen, debe asegurarse de que su 
 
 * En la NetApp Console:
 +
-** El agente de consola debe configurarse en la NetApp Console.  Todos los clústeres de origen y destino deben estar en el mismo agente de consola. Consulte la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de BlueXP"^] y https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Obtenga más información sobre los agentes de consola"^] .
+** El agente de la consola debe configurarse en la NetApp Console. Todos los clústeres de origen y destino deben estar en el mismo agente de la consola. Consulta lalink:https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["Flujo de trabajo para empezar con NetApp Console"^] y la link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html["Obtenga más información sobre los agentes de consola"^].
 ** Se debe establecer el ambiente de trabajo.
 ** Los clústeres deben agregarse en el entorno de trabajo de destino y en un estado encendido o degradado.
 ** Requisitos estándar de la NetApp Console . Referirse a https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisitos de la NetApp Console"^] .

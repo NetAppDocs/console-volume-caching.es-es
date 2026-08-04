@@ -14,7 +14,7 @@ summary: Estas preguntas frecuentes pueden ayudarte si simplemente buscas una re
 [role="lead"]
 Estas preguntas frecuentes pueden ayudarte si simplemente buscas una respuesta rápida a una pregunta.
 
-*¿Cuál es la URL de almacenamiento en caché de volumen?* Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la consola BlueXP .
+*¿Cuál es la URL del almacenamiento en caché de volúmenes?* Para la URL, en un navegador, introduce: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la NetApp Console.
 
 ¿Necesita una licencia para utilizar el almacenamiento en caché de volumen? No se requiere un archivo de licencia de NetApp (NLF).
 

@@ -16,7 +16,6 @@
   <block id="953ec04cfd6a17011e0166e01775e88a" category="paragraph">Se puede acceder al almacenamiento en caché de volumen a través de la NetApp Console.</block>
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">La NetApp Console proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.</block>
   <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.</block>
-  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">Obtenga más información sobre el<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block> .</block>
   <block id="da693da874d690d16f540e10e65a2321" category="section-title">¿Qué es un caché?</block>
   <block id="a6d4ceba96fb1d711128b98f2e1eaa34" category="paragraph">Un caché es una ubicación de almacenamiento temporal que reside entre un host y la fuente de datos.  El objetivo de un caché es almacenar partes de datos de origen a las que se accede con frecuencia de manera que se puedan servir los datos más rápido de lo que sería si se obtuvieran de la fuente.  Los cachés son más beneficiosos en entornos de lectura intensiva donde se accede a los datos más de una vez y son compartidos por múltiples hosts.  Un sistema de caché es más rápido que el sistema con fuente de datos, lo que se logra mediante un sistema de almacenamiento más rápido y la proximidad del espacio de almacenamiento de caché al host.</block>
   <block id="e7b882d61a65174f42223c66c70096ee" category="paragraph">El almacenamiento en caché de volumen ofrece los siguientes beneficios:</block>
@@ -49,9 +48,7 @@
   <block id="6bc8ee47a10f11a50d1b88f0e1669fee" category="list-text">Permisos de ONTAP del administrador del clúster</block>
   <block id="bb2db94d282af73e9408b243f1158770" category="list-text">LIF entre clústeres en los clústeres</block>
   <block id="b0bec4e694abbf7d9f8eab802a66698d" category="list-text">En la NetApp Console:</block>
-  <block id="69b085a23d3ed85c84455b9288792bf2" category="inline-link">Inicio rápido de BlueXP</block>
   <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">Obtenga más información sobre los agentes de consola</block>
-  <block id="e2a5fa776bf988cfa9dbfb9f02da9619" category="list-text">El agente de consola debe configurarse en la NetApp Console.  Todos los clústeres de origen y destino deben estar en el mismo agente de consola. Consulte la<block ref="4b1866f17dc6bd66f88d9d6839084df6" category="inline-link-rx"></block> y<block ref="be47360914e9c5a32b9a06216cb3cec0" category="inline-link-rx"></block> .</block>
   <block id="1644e8c8713b99aa2a509321e1b03ba5" category="list-text">Se debe establecer el ambiente de trabajo.</block>
   <block id="c58af1fa22ce44dd1a1025cb0f4b05f2" category="list-text">Los clústeres deben agregarse en el entorno de trabajo de destino y en un estado encendido o degradado.</block>
   <block id="70409a142107b4016b7ef004178c29d8" category="inline-link">Requisitos de la NetApp Console</block>
@@ -75,7 +72,6 @@
   <block id="3847705074d8f4f4a3ad3b8e472e4a7c" category="list-text">Crear un agente de consola.</block>
   <block id="01f52dd5b9c3fcf42a482c9c21f24432" category="section-title">Crear un agente de consola en la NetApp Console</block>
   <block id="f7b8941f69c5e6de95c2c5651f12e340" category="paragraph">El siguiente paso es crear un agente de consola en la NetApp Console.</block>
-  <block id="368b569705fc2b4a6ccbd31e2dddc770" category="inline-link">Cómo crear un agente de consola</block>
   <block id="f46a3c01f849eec231a129ff7cb55f02" category="section-title">Crear sistemas</block>
   <block id="2dc0e2079607a1629e0ad455c80fed71" category="paragraph">Si aún no lo ha hecho, debe crear los sistemas para el origen y el destino.</block>
   <block id="5df55e7de34e04e3fbd5d9ffd4e44939" category="inline-link">Cree un sistema Amazon FSx para ONTAP</block>
@@ -126,9 +122,7 @@
   <block id="334fb6e3ccc3d68c66ae1be5bb08809f" category="summary">El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 de octubre de 2025</block>
   <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">4 de junio de 2023</block>
-  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp proporciona soporte para BlueXP de distintas maneras. Hay amplias opciones de autoayuda gratuitas disponibles las 24 horas, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtener ayuda</block>
-  <block id="243263104c829e77835d632f591230d5" category="summary">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp , debe agregar una cuenta del sitio de soporte de NetApp a BlueXP y luego registrarse para recibir soporte.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Regístrese para recibir asistencia</block>
   <block id="169359b747a97bfd7be9db6b4d0d4205" category="paragraph">El volumen almacenado en caché puede estar en el mismo clúster o en un clúster diferente al del volumen de origen.  Los volúmenes que seleccione para almacenar en caché deben pertenecer a la misma máquina virtual de almacenamiento y las máquinas virtuales de almacenamiento deben usar los mismos protocolos.</block>
   <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">Si los volúmenes no son elegibles para el almacenamiento en caché, aparecerán en gris para que no pueda seleccionarlos.</block>
@@ -224,7 +218,6 @@
   <block id="033e2516825fa188c29e35e7c32156f0" category="doc">El almacenamiento en caché de volumen de BlueXP ahora es almacenamiento en caché de volumen</block>
   <block id="81f5cfd86553bef12a7f07a5e054d153" category="paragraph">El almacenamiento en caché de volumen de BlueXP ha cambiado de nombre a Almacenamiento en caché de volumen.</block>
   <block id="944de674eb4a05a94f0f416e5231a567" category="doc">Preguntas frecuentes sobre el almacenamiento en caché de volumen</block>
-  <block id="f5444e55025c3b530b03c55974837eda" category="paragraph">*¿Cuál es la URL de almacenamiento en caché de volumen?* Para la URL, en un navegador, ingrese:<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> para acceder a la consola BlueXP .</block>
   <block id="b2220f076c005c14cef060497d839343" category="paragraph">¿Necesita una licencia para utilizar el almacenamiento en caché de volumen? No se requiere un archivo de licencia de NetApp (NLF).</block>
   <block id="f788ef9bf8e4b88d2e7224fcf76da51b" category="paragraph">¿Cómo habilitar el almacenamiento en caché de volumen? El almacenamiento en caché de volumen no requiere ninguna habilitación. La opción Almacenamiento en caché de volumen aparece automáticamente en la navegación izquierda de la NetApp Console .</block>
   <block id="f5bcb165d2c026accbfd21dc4ade2dd0" category="summary">El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes de caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente.</block>
@@ -253,12 +246,9 @@
   <block id="3edd8a9fa9947416caecc886e46fdaed" category="list-text"><block ref="a01ab11ac22ae6b95a3895f32824a3bb" category="inline-link-macro-rx"></block>.</block>
   <block id="ada3c6bfdc22ece41e035ddca47abb5d" category="summary">Para utilizar el almacenamiento en caché de volumen, realice unos pocos pasos para configurarlo.</block>
   <block id="14b492c5a59daceff1c47e1fa3ab1153" category="list-text">Cree sistemas que puedan soportar el almacenamiento en caché de volumen.</block>
-  <block id="3c9afdff338f9376b658201764ef0e4c" category="paragraph">Para crear un agente de consola antes de usar el almacenamiento en caché de volumen, consulte la documentación de la NetApp Console que describe<block ref="2d846d70ffa1be89a4045faa3f83584f" category="inline-link-rx"></block>.</block>
   <block id="0a063cd26a1bbcc09925261862a0a057" category="doc">Limitaciones conocidas del almacenamiento en caché de volumen</block>
   <block id="55faa3077ad6eac1174df58be9138964" category="doc">Novedades en el almacenamiento en caché de volumen</block>
   <block id="edab0746c168cf99de3d1184db89eae9" category="paragraph">Descubra las novedades en el almacenamiento en caché de volumen.</block>
-  <block id="f5c0ab0b832c25e3ab9face45d707d33" category="paragraph">Directiva sin resolver en &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/_include/get-help.adoc []</block>
-  <block id="e8ff5d0cbb9854743021547f0190c7ab" category="paragraph">Directiva sin resolver en &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/_include/support-registration.adoc []</block>
   <block id="2596872be52ae24ad1bcecec5ebebdf5" category="doc">Crear un caché usando Volume Caching</block>
   <block id="40bffc6e5a41371152da5daf50118a7c" category="paragraph">El almacenamiento en caché de volumen proporciona un volumen persistente y escribible en un lugar remoto. Puede utilizar el almacenamiento en caché de volumen para acelerar el acceso a los datos o para descargar el tráfico de volúmenes con mucho acceso. Los volúmenes almacenados en caché son ideales para cargas de trabajo de lectura intensiva, especialmente cuando los clientes necesitan acceder a los mismos datos repetidamente. Puede crear almacenamiento en caché de volumen entre Amazon FSx para ONTAP, Cloud Volumes ONTAP y ONTAP local con uno o más volúmenes de origen del sistema de origen como origen de caché. Luego, elige la máquina virtual de almacenamiento para los volúmenes de caché.</block>
   <block id="ab380cc6aa3b67ca5f33cf0f42933ba2" category="section-title">Pasos desde la página de inicio de Almacenamiento en caché de volumen</block>
@@ -280,4 +270,153 @@
   <block id="ddd8febf1be514ee5966f657288dabb1" category="sidebar">Usar almacenamiento en caché de volumen</block>
   <block id="cfa34b29283f7edb5353b2f0136a0382" category="sidebar">Descripción general del uso del almacenamiento en caché de volumen</block>
   <block id="aaac6bc909fa38965c87187f77135ba2" category="sidebar">Supervisar trabajos de almacenamiento en caché de volumen</block>
+  <block id="5d242f37d3e1a8b2a39ebe59f053d249" category="paragraph">*¿Cuál es la URL del almacenamiento en caché de volúmenes?* Para la URL, en un navegador, introduce:<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> para acceder a la NetApp Console.</block>
+  <block id="e3fe60bde26f43a3a5d1ce1113e7cf59" category="paragraph">Obtén más información sobre el <block ref="1d67e8a78a200565a68ec48273c17246" category="inline-link-macro-rx"></block>.</block>
+  <block id="0b1338766341d9e4efb068789c59087a" category="inline-link-macro">Flujo de trabajo para empezar con NetApp Console</block>
+  <block id="a4b080650236b34a40c4af6fc3e19f10" category="list-text">El agente de la consola debe configurarse en la NetApp Console. Todos los clústeres de origen y destino deben estar en el mismo agente de la consola. Consulta la<block ref="7803a6edb330ab0992b6c2bdbd7b02cf" category="inline-link-macro-rx"></block> y la <block ref="60ce1b0a0c322e03a03b2c2641ba72c3" category="inline-link-macro-rx"></block>.</block>
+  <block id="033ce09819d553e6a77430de2f0cc899" category="inline-link-macro">Agentes de consola</block>
+  <block id="27c7051c6017205575df5ebdcc242391" category="paragraph">Para crear un agente de Console antes de usar Volume Caching, consulta la documentación de NetApp Console para <block ref="760d18c67ed0461ccd4efce45502f48f" category="inline-link-macro-rx"></block>.</block>
+  <block id="0c798cc11f8ddc52d0bd3006eaa122fc" category="summary">NetApp ofrece soporte para la Console de diversas formas. Hay disponibles numerosas opciones gratuitas de autoayuda las 24x7, como artículos de la knowledgebase (KB) y un foro de la comunidad. Tu registro de soporte incluye soporte técnico remoto a través de tickets web.</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp proporciona soporte para NetApp Console y sus servicios en la nube de diversas formas. Hay disponibles amplias opciones de autoasistencia gratuitas 24/7, como artículos de la base de conocimientos (KB) y un foro de la comunidad. Tu registro de soporte incluye soporte técnico remoto a través de tickets web.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtén soporte para el servicio de archivos de un proveedor de nube</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">Para obtener soporte técnico relacionado con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulta la documentación de ese producto.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">Para recibir soporte técnico específico para NetApp y sus soluciones de almacenamiento y servicios de datos, utiliza las opciones de soporte descritas a continuación.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utiliza las opciones de autoservicio</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Estas opciones están disponibles de forma gratuita, las 24 horas del día, los 7 días de la semana:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentación</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">La documentación de la NetApp Console que estás viendo ahora.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de conocimientos</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">Busca en la base de conocimientos de NetApp para encontrar artículos útiles y solucionar problemas.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Comunidades</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">Únete a la comunidad de NetApp Console para seguir las discusiones en curso o crear nuevas.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crea un caso con el soporte de NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Además de las opciones de autoayuda mencionadas anteriormente, puedes trabajar con un especialista de soporte de NetApp para resolver cualquier problema después de que actives el soporte.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Antes de empezar</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">Aprende a gestionar las credenciales asociadas a tu inicio de sesión en la consola</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">Para usar la función *Crear un caso*, primero debes asociar tus credenciales del sitio de soporte de NetApp con tu inicio de sesión en la consola.<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block>.</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Si vas a abrir un caso para un sistema ONTAP que tiene un número de serie, entonces tu cuenta NSS debe estar asociada a ese número de serie.</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">En la consola NetApp, selecciona *Ayuda &gt; Soporte*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">En la página *Recursos*, elige una de las opciones disponibles en Soporte técnico:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Selecciona «Llámanos» si deseas hablar con alguien por teléfono. Se te redirigirá a una página en netapp.com en la que figuran los números de teléfono a los que puedes llamar.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Selecciona *Crear un caso* para abrir un ticket con un especialista de soporte técnico de NetApp:</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*Servicio*: Selecciona el servicio con el que está asociado el problema. Por ejemplo, *NetApp Console* cuando se trate de un problema de soporte técnico con flujos de trabajo o funcionalidad dentro de la Console.</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*Sistema*: Si es aplicable al almacenamiento, selecciona *Cloud Volumes ONTAP* o *On-Prem* y luego el entorno de trabajo asociado.</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">La lista de sistemas está dentro del ámbito de la organización de la Console y del agente de la Console que tú has seleccionado en el banner superior.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Prioridad del caso*: Elige la prioridad del caso, que puede ser baja, media, alta o crítica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Para obtener más detalles sobre estas prioridades, pasa el mouse por encima del icono de información junto al nombre del campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descripción del problema*: Proporciona una descripción detallada de tu problema, incluyendo cualquier mensaje de error aplicable o los pasos de resolución de problemas que realizaste.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Direcciones de correo electrónico adicionales*: Introduce direcciones de correo electrónico adicionales si deseas informar a otra persona sobre este asunto.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Archivo adjunto (opcional)*: Sube hasta cinco archivos adjuntos, uno a la vez.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Los archivos adjuntos tienen un límite de 25 MB por archivo. Se admiten las siguientes extensiones de archivo: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx y csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Una captura de pantalla del formulario «Crear un caso» que te permite crear un caso con el soporte de NetApp.</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Después de que termines</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Aparecerá una ventana emergente con el número de tu caso de soporte. Un especialista de soporte de NetApp revisará tu caso y se pondrá en contacto contigo pronto.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Para consultar el historial de tus casos de soporte, puedes seleccionar *Configuración &gt; Cronología* y buscar las acciones denominadas "crear caso de soporte". Un botón situado en el extremo derecho te permite expandir la acción para ver los detalles.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Es posible que te aparezca el siguiente mensaje de error al intentar crear un caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">«No estás autorizado a crear un caso contra el servicio seleccionado»</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">Este error podría significar que la cuenta NSS y la empresa de registro a la que está asociada no es la misma empresa de registro para el número de serie de la cuenta de NetApp Console (es decir, 960xxxx) o el número de serie del entorno de trabajo. Puedes solicitar asistencia usando una de las siguientes opciones:</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Envía un caso no técnico a<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">Administra tus casos de soporte técnico</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">Puedes ver y gestionar los casos de soporte activos y resueltos directamente desde la NetApp Console. Puedes gestionar los casos asociados a tu cuenta NSS y a tu empresa.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Ten en cuenta lo siguiente:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">El panel de gestión de casos en la parte superior de la página ofrece dos vistas:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">La vista de la izquierda muestra el total de casos abiertos en los últimos 3 meses por la cuenta de usuario NSS que has facilitado.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">La vista de la derecha muestra el total de casos abiertos en los últimos 3 meses a nivel de tu empresa según tu cuenta de usuario NSS.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Los resultados en la tabla reflejan los casos relacionados con la vista que seleccionaste.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Puedes añadir o eliminar las columnas que te interesen y puedes filtrar el contenido de columnas como Prioridad y Estado. Otras columnas solo permiten ordenar.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Consulta los pasos que se indican a continuación para obtener más detalles.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">A nivel de cada caso, ofrecemos la posibilidad de actualizar las notas del caso o cerrar un caso que aún no esté en estado Closed o Pending Closed.</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">En la consola NetApp, selecciona *Ayuda &gt; Soporte*.</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">Selecciona *Case Management* y si te lo piden, añade tu cuenta NSS a la NetApp Console.</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">La página *Gestión de casos* muestra los casos abiertos relacionados con la cuenta NSS asociada a tu cuenta de usuario de la Console. Esta es la misma cuenta NSS que aparece en la parte superior de la página *Gestión NSS*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Si lo deseas, puedes modificar la información que se muestra en la tabla:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">En *Casos de la organización*, selecciona *Ver* para ver todos los casos asociados con tu empresa.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifica el intervalo de fechas eligiendo un intervalo exacto o seleccionando otro periodo de tiempo.</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtra el contenido de las columnas.</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">El icono con el signo «+» que aparece en la tabla</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">Cambia las columnas que aparecen en la tabla seleccionando <block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block> y luego elige las columnas que te gustaría mostrar.</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Un icono con tres puntos que aparece en la última columna de la tabla</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">Gestiona un caso existente seleccionando <block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block> y eligiendo una de las opciones disponibles:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Ver todos los detalles sobre un caso específico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Actualizar notas del caso*: Facilita más detalles sobre tu problema o selecciona *Subir archivos* para adjuntar hasta un máximo de cinco archivos.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Cerrar caso*: Indica los motivos por los que vas a cerrar el caso y selecciona *Cerrar caso*.</block>
+  <block id="f2f75a95021ba669c08b0f839677678b" category="summary">Antes de que puedas abrir un caso de soporte con el soporte técnico de NetApp, necesitas añadir una cuenta de NetApp Support Site a la Console y luego registrarte para soporte.</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">Es necesario registrarse en el soporte técnico para recibir soporte técnico específico de la NetApp Console y sus soluciones de almacenamiento y servicios de datos. También es necesario registrarse en el soporte técnico para habilitar flujos de trabajo clave para los sistemas Cloud Volumes ONTAP.</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">El registro para recibir soporte no habilita el soporte de NetApp para el servicio de archivos de un proveedor de nube. Para soporte técnico relacionado con el servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que use el servicio, consulta la sección "Obtener ayuda" en la documentación de ese producto.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Resumen del registro de soporte</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Existen dos formas de registro para activar el derecho a la asistencia:</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">Registrar el número de serie de tu cuenta de NetApp Console (tu número de serie de 20 dígitos 960xxxxxxxxx que se encuentra en la página de recursos de soporte de la consola).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">Este es tu identificador único de suscripción de soporte para cualquier servicio dentro de la Consola. Cada cuenta de la Consola debe estar registrada.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrar los números de serie de Cloud Volumes ONTAP asociados a una suscripción en el marketplace de tu proveedor de nube (estos son números de serie de 20 dígitos 909201xxxxxxxx).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">Estos números de serie se conocen comúnmente como _números de serie PAYGO_ y los genera la NetApp Console en el momento de la implementación de Cloud Volumes ONTAP.</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">Registrar ambos tipos de números de serie te permite acceder a funciones como abrir tickets de soporte y generar casos de forma automática. El registro se completa añadiendo cuentas del NetApp Support Site (NSS) a la Consola, tal como se describe a continuación.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">Registra la consola NetApp para soporte de NetApp</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">Para registrarte en el soporte y activar el derecho a soporte, un usuario de tu cuenta de NetApp Console debe asociar una cuenta de NetApp Support Site con su inicio de sesión en la Console. Cómo te registras para el soporte de NetApp depende de si ya tienes una cuenta de NetApp Support Site (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente actual con una cuenta NSS</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">Si eres cliente de NetApp y tienes una cuenta NSS, solo tienes que registrarte para soporte a través de la Consola.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">Selecciona *Administración* &gt; *Credenciales*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selecciona *Credenciales de usuario*.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">Selecciona *Add NSS credentials* y sigue el aviso de autenticación del sitio de soporte de NetApp (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Para comprobar que el proceso de registro se ha realizado correctamente, selecciona el icono de Ayuda y selecciona *Asistencia técnica*.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">La página *Recursos* debería mostrar que tu cuenta de Console está registrada para soporte.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">Ten en cuenta que los demás usuarios de la Consola no verán este mismo estado de registro de soporte si no han asociado una cuenta de NetApp Support Site con su inicio de sesión. Sin embargo, eso no significa que tu cuenta no esté registrada para soporte. Mientras un usuario de la organización haya seguido estos pasos, tu cuenta ya está registrada.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente actual pero sin cuenta NSS</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">Si ya eres cliente de NetApp y dispones de licencias y números de serie, pero _no_ tienes una cuenta NSS, debes crear una cuenta NSS y asociarla a tu inicio de sesión de la Console.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Formulario de registro de usuario del sitio de soporte</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Crea una cuenta del sitio de soporte de NetApp completando el<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Asegúrate de seleccionar el nivel de usuario adecuado, que normalmente es *NetApp Customer/End User*.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">Asegúrate de copiar el número de serie de la cuenta de Console (960xxxx) utilizado anteriormente en el campo del número de serie. Esto agilizará la tramitación de la cuenta.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">Vincula tu nueva cuenta de NSS a tus datos de acceso a la Consola siguiendo los pasos que se indican en <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Totalmente nuevo en NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si acabas de llegar a NetApp y no tienes una cuenta de NSS, sigue cada paso a continuación.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">En la esquina superior derecha de la consola, selecciona el icono de Ayuda y selecciona *Soporte*.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Busca el número de serie de tu ID de cuenta en la página de registro de soporte.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Una captura de pantalla del menú Ayuda donde Soporte es la primera opción de la lista</block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp sitio de registro de soporte</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Accede a<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> y selecciona *I am not a registered NetApp Customer*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Rellena los campos obligatorios (los que tienen un asterisco rojo).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">En el campo *Línea de productos*, selecciona *Cloud Manager* y luego selecciona tu proveedor de facturación correspondiente.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copia el número de serie de tu cuenta del paso 2 anterior, completa la verificación de seguridad y luego confirma que leíste la política de privacidad global de NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Se envía inmediatamente un correo electrónico al buzón proporcionado para finalizar esta transacción segura. Asegúrate de revisar tus carpetas de correo no deseado si el correo electrónico de validación no llega en unos minutos.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirma la acción desde el propio correo electrónico.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Al confirmar, envías tu solicitud a NetApp y se te recomienda que crees una cuenta de NetApp Support Site.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Asegúrate de copiar el número de serie de la cuenta (960xxxx) utilizado anteriormente en el campo del número de serie. Esto agilizará la tramitación.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp debería ponerse en contacto contigo durante este proceso. Este es un ejercicio de incorporación único para nuevos usuarios.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">Una vez que tengas tu cuenta del sitio de soporte de NetApp, vincula dicha cuenta a tu nombre de usuario de la consola siguiendo los pasos que se indican en <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Asociar credenciales de NSS para el soporte técnico de Cloud Volumes ONTAP</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Es necesario vincular las credenciales del sitio de soporte de NetApp a tu cuenta de la Console para habilitar los siguientes flujos de trabajo clave de Cloud Volumes ONTAP:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registrar sistemas Cloud Volumes ONTAP de pago por uso para soporte</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Es necesario facilitar tu cuenta de NSS para activar el soporte técnico de tu sistema y poder acceder a los recursos de soporte técnico de NetApp.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Implementación de Cloud Volumes ONTAP cuando traes tu propia licencia (BYOL)</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">Es necesario que facilites tu cuenta de NSS para que la Console pueda cargar tu clave de licencia y activar la suscripción durante el periodo que hayas adquirido. Esto incluye actualizaciones automáticas para las renovaciones del periodo.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Actualizar el software Cloud Volumes ONTAP a la última versión</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">La vinculación de las credenciales de NSS con tu cuenta de NetApp Console es diferente de la cuenta de NSS que está asociada con el inicio de sesión de un usuario de Console.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Estas credenciales de NSS están asociadas a tu ID de cuenta específico de la Console. Los usuarios que pertenezcan a la organización de la Console pueden acceder a estas credenciales desde *Support &gt; NSS Management*.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si tienes una cuenta de nivel de cliente, puedes añadir una o varias cuentas NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si tienes una cuenta de socio o de distribuidor, puedes añadir una o varias cuentas NSS, pero no se pueden añadir junto con cuentas de cliente.</block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Selecciona *NSS Management &gt; Add NSS Account*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Cuando se te solicite, selecciona *Continuar* para que se te redirija a una página de inicio de sesión de Microsoft.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utiliza Microsoft Entra ID como proveedor de identidad para los servicios de autenticación específicos de soporte y licencias.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">En la página de inicio de sesión, introduce tu dirección de correo electrónico registrada en el sitio de soporte de NetApp y tu contraseña para realizar el proceso de autenticación.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">Estas acciones permiten que la consola utilice tu cuenta NSS para cosas como la descarga de licencias, la verificación de actualizaciones de software y futuros registros de soporte.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">La cuenta NSS debe ser una cuenta de cliente (no una cuenta de invitado ni una cuenta temporal). Puedes tener varias cuentas NSS de cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Solo puede haber una cuenta NSS si se trata de una cuenta de nivel de partner. Si intentas añadir cuentas NSS de nivel de cliente y ya existe una cuenta de nivel de partner, aparecerá el siguiente mensaje de error:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">«El tipo de cliente NSS no está permitido para esta cuenta, ya que ya hay usuarios NSS de otro tipo»</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo mismo ocurre si ya tienes cuentas NSS a nivel de cliente y intentas añadir una cuenta a nivel de partner.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Una vez que hayas iniciado sesión correctamente, NetApp almacenará el nombre de usuario de NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un icono de tres puntos horizontales</block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">Este es un ID generado por el sistema que se asocia a tu correo electrónico. En la página *NSS Management*, puedes mostrar tu correo electrónico desde el menú <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">Si alguna vez necesitas actualizar tus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en el menú <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Al utilizar esta opción, se te pedirá que vuelvas a iniciar sesión. Ten en cuenta que el token de estas cuentas caduca a los 90 días. Se publicará una notificación para avisarte de esto.</block>
 </blocks>

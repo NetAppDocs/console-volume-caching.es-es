@@ -20,6 +20,7 @@ El almacenamiento en caché de volumen también proporciona a las sucursales acc
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 Se puede acceder al almacenamiento en caché de volumen a través de la NetApp Console.
@@ -28,16 +29,18 @@ La NetApp Console proporciona una gestión centralizada de los servicios de dato
 
 No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
 
-Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
+Obtén más información sobre el link:https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"].
 
 
 
+[[what-is-a-cache]]
 == ¿Qué es un caché?
 
 Un caché es una ubicación de almacenamiento temporal que reside entre un host y la fuente de datos.  El objetivo de un caché es almacenar partes de datos de origen a las que se accede con frecuencia de manera que se puedan servir los datos más rápido de lo que sería si se obtuvieran de la fuente.  Los cachés son más beneficiosos en entornos de lectura intensiva donde se accede a los datos más de una vez y son compartidos por múltiples hosts.  Un sistema de caché es más rápido que el sistema con fuente de datos, lo que se logra mediante un sistema de almacenamiento más rápido y la proximidad del espacio de almacenamiento de caché al host.
 
 
 
+[[benefits-of-volume-caching]]
 == Beneficios del almacenamiento en caché de volumen
 
 El almacenamiento en caché de volumen ofrece los siguientes beneficios:
@@ -52,6 +55,7 @@ El almacenamiento en caché de volumen ofrece los siguientes beneficios:
 
 
 
+[[what-you-can-do-with-volume-caching]]
 == Qué puedes hacer con el almacenamiento en caché de volumen
 
 El almacenamiento en caché de volumen le proporciona el uso completo de varias tecnologías de NetApp para lograr los siguientes objetivos:
@@ -64,18 +68,21 @@ El almacenamiento en caché de volumen le proporciona el uso completo de varias 
 
 
 
+[[cost]]
 == Costo
 
 NetApp no ​​le cobra por el almacenamiento en caché de volumen, pero deberá consultar con su proveedor de nube para conocer los cargos de ingreso y egreso de datos aplicables.
 
 
 
+[[licensing]]
 == Licencias
 
 No se necesitan licencias ONTAP especiales para el almacenamiento en caché de volumen.
 
 
 
+[[how-volume-caching-works]]
 == Cómo funciona el almacenamiento en caché de volumen
 
 Un volumen de caché es un volumen escasamente poblado que está respaldado por un volumen de origen.  El volumen de caché puede estar en el mismo clúster que el volumen de origen o en un clúster diferente al mismo.

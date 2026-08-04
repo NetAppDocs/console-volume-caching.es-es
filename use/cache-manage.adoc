@@ -25,6 +25,7 @@ Con el almacenamiento en caché de volumen, puede lograr estos objetivos:
 
 
 
+[[view-cache-details]]
 == Ver detalles de la caché
 
 Para cada almacenamiento en caché, puede ver el volumen original, el entorno de trabajo, el volumen de caché y más.
@@ -42,6 +43,7 @@ Puede ver la lista de volúmenes de caché creados en el sistema de destino.  La
 
 
 
+[[edit-a-cache]]
 == Editar un caché
 
 Puede cambiar el nombre, el tamaño del volumen y la política de exportación de un caché.
@@ -63,6 +65,7 @@ Puede cambiar el nombre, el tamaño del volumen y la política de exportación d
 
 
 
+[[assign-a-different-cache-export-policy]]
 == Asignar una política de exportación de caché diferente
 
 Puede asignar una política de exportación diferente a un caché.
@@ -82,6 +85,7 @@ TIP: Puede asignar una política de exportación existente a un caché.  No se p
 
 
 
+[[resize-a-cache]]
 == Cambiar el tamaño de una caché
 
 Puede cambiar el tamaño del volumen de caché en función de un porcentaje del volumen de origen.
@@ -99,6 +103,7 @@ El volumen de caché se redimensionará al nuevo porcentaje.
 
 
 
+[[delete-a-cache]]
 == Eliminar un caché
 
 Si ya no necesitas el caché, puedes eliminarlo. Esto elimina la relación de almacenamiento en caché de volumen y elimina el caché de volumen de destino.

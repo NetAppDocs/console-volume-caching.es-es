@@ -16,6 +16,7 @@ Las limitaciones conocidas identifican plataformas, dispositivos o funciones que
 
 
 
+[[limitation-in-copying-cache-export-policy-rules]]
 == Limitación en la copia de reglas de política de exportación de caché
 
 Las reglas de la política de exportación de caché no se copian al volumen de caché en las siguientes situaciones:
@@ -28,6 +29,7 @@ Solución alternativa: debe crear manualmente las reglas para el volumen de cach
 
 
 
+[[cache-creation-fails-for-storage-vms-with-same-name]]
 == La creación de caché falla para las máquinas virtuales de almacenamiento con el mismo nombre
 
 Si los clústeres de origen y destino utilizan máquinas virtuales de almacenamiento con el mismo nombre, no se crea el caché.
@@ -36,6 +38,7 @@ Solución alternativa: utilice nombres diferentes para las máquinas virtuales d
 
 
 
+[[delay-in-displaying-new-or-recently-edited-export-policies]]
 == Retraso en la visualización de políticas de exportación nuevas o editadas recientemente
 
 Al crear un caché, es posible que no pueda ver una política de exportación creada o editada recientemente en la lista.
@@ -44,6 +47,7 @@ Solución alternativa: vuelva a intentarlo en unos minutos.
 
 
 
+[[cache-creation-fails-when-destination-has-only-cifs-protocol-enabled]]
 == La creación de caché falla cuando el destino solo tiene habilitado el protocolo CIFS
 
 La creación de caché falla si el clúster de origen o destino tiene ONTAP 9.10.1 o anterior, y el clúster de destino solo tiene habilitado el protocolo CIFS.

@@ -28,6 +28,7 @@ El nombre del volumen en caché utiliza un sufijo de `pass:macros[_cache]` añad
 
 
 
+[[steps-from-the-volume-caching-landing-page]]
 == Pasos desde la página de inicio de Almacenamiento en caché de volumen
 
 . Inicie sesión en la NetApp Console.
@@ -72,6 +73,7 @@ El nuevo caché aparece en la lista de Almacenamiento en caché.  Se mostrará e
 
 
 
+[[steps-from-the-netapp-console-systems-page]]
 == Pasos desde la página de sistemas de NetApp Console
 
 . Desde la página Sistemas de NetApp Console , seleccione el entorno de trabajo.
